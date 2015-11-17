@@ -1,0 +1,1 @@
+define("common/util",["jquery","tpl/gis"],function(t,n){"use strict";t("body").html(n["index.html"])}),define("common",["common/util"],function(t){"use strict";return{}});

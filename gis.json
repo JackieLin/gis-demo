@@ -1,0 +1,36 @@
+{
+    "//": "自动打包的目录",
+    "pack": "./js/pack",
+    "roadMap": [
+        {
+            "path": "./common/src",
+            "exclude": ["excludefile.js"]
+        }
+    ],
+
+    "sass": "./style/sass",
+
+    "//": "tpl目录",
+    "tpl": "./tpl",
+
+    "//": "tpl需不需要编译",
+    "tplBuild": true,
+
+    "//": "是否需要浏览器加载刷新",
+    "browserReload": false,
+
+    "//": "requireJS 的配置",
+    "requireConfig": {
+        "baseUrl": "./",
+        "paths": {
+            "jquery": "./js/vendor/jquery/2.1.4/jquery-2.1.4.min",
+            "requirejs": "./js/vendor/require/2.1.9/require.min"
+        }
+    },
+
+    "//": "配置文件",
+    "configFile": {
+        "production": "./js/config.js",
+        "dev": "./js/config.dev.js"
+    }
+}
